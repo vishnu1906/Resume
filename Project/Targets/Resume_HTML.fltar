@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  ShowMadCapBacklink="true"
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="exclude[Default.PrintOnly] "
+  MasterToc="/Project/TOCs/Resume.fltoc"
+  BrowseSequence="/Project/Advanced/Browse Sequences/BrowseSequence.flbrs"
+  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
+  OutputFile="Vishnu Resume"
+  OutputFolder="C:\Bitbucket\Vishnu Resume\Vishnu Resume\Output\Vishnu Resume">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

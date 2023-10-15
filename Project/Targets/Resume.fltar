@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Adobe PDF Target"
+  Type="PDF"
+  MasterToc="/Project/TOCs/Resume.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
+  OutputFile="Vishnu Resume"
+  OutputFolder="C:\Bitbucket\Vishnu Resume\Vishnu Resume\Output\Vishnu Resume"
+  PatchHeadingLevels="true"
+  InjectBookHeadings="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Glossaries />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="Fit" />
+  <DocumentProperties
+    Author="Vishnu" />
+</CatapultTarget>
